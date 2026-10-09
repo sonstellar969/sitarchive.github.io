@@ -4,6 +4,15 @@ const CHANGELOG_DATA = [
         "subtitle": "Latest updates",
         "entries": [
             {
+                "date": "Oct 9, 2026",
+                "color": "amber",
+                "icon": "campaign",
+                "badgeText": "Announcement",
+                "title": "Help Us Rename SIT Archive!",
+                "bodyHtml": "<p class=\"text-sm text-text-light-muted dark:text-text-dark-muted\">We are planning to rename SIT Archive as the platform grows beyond SIT papers. A dismissible banner has been added to the top of all pages linking to a suggestion form. <a href=\"https://forms.gle/xu6izfSjESVAnkVi6\" target=\"_blank\" class=\"text-primary hover:underline\">Share your ideas here</a>.</p>"
+            },
+
+            {
                 "date": "Oct 03, 2026",
                 "color": "orange",
                 "icon": "build",
