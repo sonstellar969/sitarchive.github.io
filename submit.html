@@ -143,7 +143,7 @@
 
     
     <!-- Announcement Banner -->
-    <div id="rename-banner" class="w-full bg-primary text-white py-2 pl-4 pr-10 relative z-[100] text-center text-sm transition-all duration-300 hidden">
+    <div id="rename-banner" class="w-full bg-primary text-white py-2 pl-4 pr-10 relative z-[100] text-center text-sm transition-all duration-300">
         <a href="https://forms.gle/xu6izfSjESVAnkVi6" target="_blank" rel="noopener noreferrer" class="hover:underline font-semibold block sm:inline">
             Help us rename SIT Archive! Click here to suggest a new name.
         </a>
@@ -152,14 +152,7 @@
         </button>
     </div>
     <script>
-        const pageKey = 'hideRenameBanner_' + window.location.pathname;
-        if (!localStorage.getItem(pageKey)) {
-            const banner = document.getElementById('rename-banner');
-            if (banner) banner.classList.remove('hidden');
-        }
         function dismissRenameBanner() {
-            const pageKey = 'hideRenameBanner_' + window.location.pathname;
-            localStorage.setItem(pageKey, 'true');
             const banner = document.getElementById('rename-banner');
             if (banner) banner.style.display = 'none';
         }
